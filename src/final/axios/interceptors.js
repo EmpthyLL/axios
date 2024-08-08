@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const authFetch = axios.create({
-  baseURL: 'https://course-api.com',
+  baseURL: 'https://www.course-api.com/react-store-products',
 });
 
 authFetch.interceptors.request.use(
